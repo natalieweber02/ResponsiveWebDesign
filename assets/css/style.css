@@ -683,7 +683,7 @@ footer h2 {
         gap: 10px;
     }
 }
-/* tabs responsive code  */
+/* responsive  */
 @media only screen and (max-width:940px) {
     .unser p {
         font-size: 20px;
