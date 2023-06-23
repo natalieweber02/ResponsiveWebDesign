@@ -22,6 +22,7 @@
     src: url(../fonts/Futura-LT/FuturaLT-Light.woff);
 }
 
+/* general css  */
 
 .black-btn {
     font-family: 'FuturaEF DemiBold';
@@ -52,7 +53,7 @@
     border-radius: 53px;
     padding: 10px 50px;
     background: #B1B1B1;
-    border: 1px solid #000000;
+    border: 0px solid #000000;
     display: inline-block;
 }
 
@@ -149,7 +150,9 @@ nav .icon p {
     font-size: 15px;
     line-height: 140%;
     color: #000000;
+
 }
+
 
 
 .hero {
@@ -197,12 +200,13 @@ nav .icon p {
     font-family: 'Futura Lt';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 55px;
     text-align: center;
     color: #000000;
     margin: 30px 0;
 }
+
 
 .unser {
     padding: 50px 5% 0 5%;
@@ -543,7 +547,7 @@ footer h2 {
     color: #000000;
 
 }
-/* tabs responsive code  */
+/* tabs responsive code Iphone XR*/
 
 @media all and (min-width: 690px) {
     .newsletter .formsction {
@@ -566,7 +570,7 @@ footer h2 {
     }
 
     .hero {
-        background-position: 70%;
+        background-position: 62%;
     }
 
     .hero .main h1 {
@@ -599,7 +603,7 @@ footer h2 {
         font-size: 25px;
         line-height: 45px;
     }
-
+ 
     .section-heading {
         font-size: 30px;
     }
@@ -683,14 +687,13 @@ footer h2 {
         gap: 10px;
     }
 }
-/* responsive  */
+/* tabs responsive code Surface pro 7 */
 @media only screen and (max-width:940px) {
     .unser p {
         font-size: 20px;
-        margin: 10px 0;
+        margin: 19px 0;
     }
-
-
+   
 }
 
 @media only screen and (max-width:992px) {
@@ -700,7 +703,7 @@ footer h2 {
     }
 
     .hero .main h2 {
-        font-size: 19px;
+        font-size: 25px;
     }
 
     .hero .black-btn {
@@ -711,4 +714,5 @@ footer h2 {
     .br {
         display: block;
     }
+  
 }
